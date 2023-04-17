@@ -15,7 +15,4 @@ RUN npm i --quiet
 
 COPY . .
 
-# RUN mkdir -p /usr/app/uploads
-
-# set runner ENV
 ENV NODE_ENV="production"
